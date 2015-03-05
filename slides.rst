@@ -1,7 +1,94 @@
-:title: Optimization in Computer Vision
-:author: Joan Massich
-:description: a seminar at Le2i (in Le Creusot)
-:keywords: optimization, computer vision application, data, mrf
+Optimization in Computer Vision
+===============================
+
+
+----
+
+**Optimization** in Computer Vision
+===================================
+
+----
+
+board
+
+----
+
+#. search space 
+#. function
+#. minimization strategy
+
+----
+
+1- Search space  --> My solution space
+
+2- Function      --> Design 
+
+3- Minimization strategy
+
+   - Brute force
+   - Algebra
+   - Calculus
+
+     * Gauss-Newton Optimization
+     * Simplex  Optimization
+     * Stochastic Optimization
+     * Combinatorial Optimization
+
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
+Motion Segmentation
+-------------------
+
+.. figure:: ./images/motionSeg.png
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
+Planar Homography Estimation
+----------------------------
+
+.. figure:: ./images/plannarHomography.png
+
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
+Image Segmentation
+------------------
+
+.. figure:: ./images/imageSegmentation.png
+
+Image Segmentation
+------------------
+
+.. figure:: ./images/imDenoising.png
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
+Model Fitting
+-------------
+
+.. figure:: ./images/modelFittingA.png
+   :height: 139px
+
+
+.. figure:: ./images/modelFittingB.png
 
 ----
 
