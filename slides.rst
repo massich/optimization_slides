@@ -9,15 +9,17 @@ Optimization in Computer Vision
 
 ----
 
-board
-
-----
+**Optimization** in Computer Vision
+===================================
 
 #. search space 
 #. function
 #. minimization strategy
 
 ----
+
+**Optimization** in Computer Vision
+===================================
 
 1- Search space  --> My solution space
 
@@ -66,6 +68,20 @@ Planar Homography Estimation
 Optimization in **Computer Vision**
 ===================================
 
+Model Fitting
+-------------
+
+.. figure:: ./images/modelFittingA.png
+   :height: 139px
+
+
+.. figure:: ./images/modelFittingB.png
+
+----
+
+Optimization in **Computer Vision**
+===================================
+
 Image Segmentation
 ------------------
 
@@ -78,84 +94,117 @@ Image Segmentation
 
 ----
 
-Optimization in **Computer Vision**
+Energy (or Cost) Based Segmentation
 ===================================
 
-Model Fitting
--------------
+----
 
-.. figure:: ./images/modelFittingA.png
-   :height: 139px
+Energy (or Cost) Based Segmentation
+===================================
 
+.. figure:: ./images/problem2.png
+   :height: 250px
 
-.. figure:: ./images/modelFittingB.png
 
 ----
 
-This is a first slide
-=====================
+Energy (or Cost) Based Segmentation
+===================================
 
-Restructured text takes any line that is underlines with punctuation and
-makes it into a heading. Each type of undeline will be made into a different
-level of heading, but it is not the type that is important, but rather the
-order of which each type will be enountered.
+1- Search space  --> My solution space
 
-So in this presentation, lines underlined with equal (=) characters will be
-made into a first-level (H1) heading.
+2- Function      --> Design 
 
-----
+3- Minimization strategy
 
-First header
-============
+   - Brute force
+   - Algebra
+   - Calculus
 
-You can choose other punctuation characters as your level 1 heading if you like,
-but this is the most common. Any if these character works::
+     * Gauss-Newton Optimization
+     * Simplex  Optimization
+     * Stochastic Optimization
+     * Combinatorial Optimization
 
-    = - ` : ' " ~ ^ _ * + # < > .
-
-Second header
--------------
-
-Third header
-............
-
-The drawback with reStructuredText is that you can't skip levels. You can't
-go directly from level 1 to level 3 without having a level 2 in between.
-If you do you get an error::
-
-    Title level inconsistent
 
 ----
 
-Other formatting
-================
-
-All the normal reStructuredText functions are supported in Hovercraft!
-
-- Such as bulletlists, which start with a dash (-) or an asterisk (*).
-  You can have many lines of text in one bullet if you indent the
-  following lines.
-
-   - And you can have many levels of bullets.
-   
-       - Like this.
-    
-- There is *Emphasis* and **strong emphasis**, rendered as <em> and <strong>.
+**What** is this Energy (or Cost)
+=================================
 
 ----
 
-More formatting
-===============
+Cristal Clear. **F*c#**
+=======================
 
-#. Numbered lists is of course also supported.
+----
 
-#. They are automatically numbered.
+From an applied point of view
+=============================
 
-#. But only for single-level lists and single rows of text.
+.. figure:: ./images/method.png
 
-#. ``inline literals``, rendered as <tt> and usually shown with a monospace font, which is good for source code.
+----
 
-#. Hyperlinks, like Python_
 
-.. _Python: http://www.python.org
+From an applied point of view
+=============================
 
+.. figure:: ./images/schema.png
+
+----
+
+ok, but **HOW** ?
+=================
+
+----
+
+Data term construction
+======================
+
+* Heuristic
+
+* Build a **stochastic** model
+
+
+----
+
+Data term from a stochastic model
+=================================
+
+* Features
+
+* Classifier
+  
+* Training policy
+
+----
+
+Pair-wise term
+==============
+
+----
+
+Fine, but I still don't have my **SOLUTION**
+============================================
+
+----
+
+Simulate Annealing and Graph-Cuts
+=================================
+
+
+----
+
+Recap.
+======
+
+----
+
+Translation to other problems (Image Denoising)
+===============================================
+
+----
+
+The nail and the Hammer
+=======================
